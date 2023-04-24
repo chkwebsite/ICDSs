@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/sites_mainstyle.css">
+    <link rel="stylesheet" href="assets/css/theme-color/color.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/boxicons@2.0.3/css/boxicons.min.css">
+    <title>|| Logout to ICDS ||</title>
+    <style>
+        .mobile-logo{
+          display: none;
+      }
+      .lg-logo{
+          display: block;
+      }
+      @media (max-width:575px){
+        .mobile-logo{
+          display: block;
+      }
+      .lg-logo{
+          display: none;
+      }
+    }
+      </style>
+</head>
+
+<body class="login-body-bg1" style="background-color: #D9EBF9;">
+  <div class="alert alert-success alert-pos" role="alert">
+    <button type="button" class="close float-end btn btn-link p-0" style="text-decoration: none;" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <strong>Load successfully!</strong> 
+  </div>
+  <div class="container-fluid bg-white">
+    <div class="row shadow top-h">
+        <div class="lg-logo col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 py-2 text-center2">
+            <img src="assets/images/ICDS-logo-main.png">
+        </div>
+        <div class="lg-logo col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 text-center py-2">
+          <h2 class="mb-0 font-weight-bold text-dark middle-text">Integrated Child Development Services, Maharashtra</h2>
+        </div>
+        <div class="lg-logo col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 py-2 text-center1">
+          <img class="" src="assets/images/ICDS-logo-sec.png">
+        </div>
+        <div class="col-sm-12 mobile-logo text-center">
+          <img src="assets/images/icds-dashboard-logo.png">
+        </div>
+      </div>
+  </div>
+    <div class="container">
+        <div class="row login-body-height">
+            <div class="col-sm-12 m-auto align-self-center bg-white shadow">
+                <div class="row d-none1">
+                    <div class="map-wrap col-xxl-5 col-xl-5 col-lg-5 col-md-6 col-sm-12">
+                        <div class="row">
+                          <div class="col-sm-12 m-auto1 align-self-end p-0">
+                           
+                            <img src="assets/images/ICDS-logout-main.png" style="width: 65%;padding-top: 100px;
+                        ">
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6 col-sm-12">
+                      <div class="row h-100">
+                        <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12  m-auto align-self-center">
+                        <div class="card-new">
+                          <h4 style="text-align: justify;">You are Attempting to Logout Do you really want to <strong>Logout?</strong> </h4>
+                         <a href="dashboard.html" class="mt-4 btn btn-outline-light text-dark border-light rounded-0 w-100">NO</a>
+                         <a href="login.html" class="mt-2 btn btn-warning w-100 rounded-0">YES</a>
+                            </div>
+                          </div>
+                        </div>
+                            </div>
+                    
+                    </div>
+            </div>
+        </div>
+        <div class="row d-none">
+            <div class="map-wrap col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 align-self-center1">
+                <div class="row login-body-height">
+                  <div class="col-sm-12 m-auto1 align-self-end p-0">
+                   
+                    <img src="assets/images/ICDS-logout-main.png" class="">
+                  </div>
+                </div>
+              </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+              <div class="row login-body-height">
+                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-11 col-sm-12 m-auto align-self-center">
+                <div class="card-new">
+                  <h4>Login</h4>
+                 
+                    </div>
+                  </div>
+                </div>
+                    </div>
+            
+            </div>
+            
+        </div>
+        
+        
+
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/all.min.js"></script>
+    <script type="text/javascript" src="assets/css/aos/aos.js"></script>
+    <script type="text/javascript">
+        window.addEventListener('load', () => {
+            AOS.init({
+                duration: 1000,
+                easing: "ease-in-out",
+                once: true,
+                mirror: false
+            });
+        });
+
+        window.setTimeout(function() {
+    $(".alert").fadeTo(500, 0).slideUp(500, function(){
+        $(this).remove(); 
+    });
+}, 1000);
+
+    </script>
+    <script type="text/javascript">
+      
+        $(document).ready(function() {
+            $(window).on("contextmenu",function(e){
+               return false;
+            }); 
+        }); 
+         document.onkeydown = function (e) {
+            e = e || window.event;//Get event
+            if (e.ctrlKey) {
+                var c = e.which || e.keyCode;//Get key code
+                switch (c) {
+                    case 83://Block Ctrl+S
+                    case 87://Block Ctrl+W --Not work in Chrome
+                    case 73://Block Ctrl+I
+                    case 67: //Block Ctrl+C
+                        e.preventDefault();     
+                        e.stopPropagation();
+                    break;
+                }
+            }
+        };
+        
+              document.onkeydown = function(e) {
+        if(event.keyCode == 123) {
+        return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+        return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+        return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+        return false;
+        }
+        }
+            </script>
+</body>
+
+</html>
